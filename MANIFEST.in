@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include society_master *.css
+recursive-include society_master *.csv
+recursive-include society_master *.html
+recursive-include society_master *.ico
+recursive-include society_master *.js
+recursive-include society_master *.json
+recursive-include society_master *.md
+recursive-include society_master *.png
+recursive-include society_master *.py
+recursive-include society_master *.svg
+recursive-include society_master *.txt
+recursive-exclude society_master *.pyc
